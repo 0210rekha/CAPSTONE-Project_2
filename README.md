@@ -80,7 +80,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-repository.git
+git clone https://github.com/0210rekha/CAPSTONE-Project_2.git
 Run data cleaning and SQL execution scripts:
 
 bash
