@@ -10,7 +10,7 @@ Python
 SQL for Data Management
 Power BI for Visualization
 
-Industry Domain
+Industry Domain:
 Retail Analytics (Electronics Industry)
 
 Objectives:
@@ -42,41 +42,14 @@ Python: For data cleaning and EDA.
 MySQL: For data storage and query execution.
 Power BI/Tableau: For interactive visualizations.
 
-Ensure Python 3.x is installed.
-Install required Python libraries via requirements.txt:
-bash
-Copy code
-pip install -r requirements.txt
-MySQL Setup:
-
+Ensure Python 3.x or Jupiter NoteBook is installed.
 Install MySQL and configure the database.
 Import data into MySQL tables by running the data preparation scripts.
-Power BI:
+For Data Visualization using PowerBi.
 
-Use the .pbix Power BI file to view the pre-built dashboards.
-Ensure data connections to MySQL are correctly configured for live data refresh.
-Project Structure
-data_cleaning.py: Cleans and prepares raw data for analysis.
-sql_queries.py: Executes SQL queries to extract insights from the MySQL database.
-dashboard_creation.pbix: Power BI file containing the interactive dashboards.
-requirements.txt: List of all dependencies required for Python environment setup.
-Usage
-Clone the repository:
-
-bash
 Copy code
 git clone https://github.com/your-repository.git
 Run data cleaning and SQL execution scripts:
-
-bash
-Copy code
-python data_cleaning.py
-python sql_queries.py
-Open the Power BI file for dashboard interaction and exploration:
-
-Ensure data refresh is set to live query mode.
-Contributions
-Contributions are welcome. Feel free to open a pull request or submit an issue on GitHub to suggest improvements or additional features.
 
 Demo
 Watch a demo video showcasing the Power BI dashboards: Demo Video
