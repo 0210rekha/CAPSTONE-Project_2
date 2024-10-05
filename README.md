@@ -1,61 +1,46 @@
-DataSpark: Illuminating Insights from Global Electronics
-Overview
-DataSpark is a data-driven project designed to analyze Global Electronics' business data, providing key insights into customer demographics, sales performance, product profitability, and store operations. The data pipeline involves extracting and transforming datasets, storing them in a MySQL database, and utilizing Power BI to create interactive, analytical dashboards for business intelligence.
+DataSpark: Illuminating Insights for Global Electronics
 
-Project Objective
-The goal is to perform in-depth Exploratory Data Analysis (EDA) and derive actionable recommendations to improve customer satisfaction, optimize operations, and enhance product and sales strategies.
+Project Overview:
+DataSpark is a comprehensive data analytics initiative aimed at unlocking valuable insights for Global Electronics, a leading consumer electronics retailer. By leveraging advanced data analysis and visualization techniques, this project drives actionable recommendations to optimize operations, improve customer satisfaction, and fuel business growth.
 
-Key Components
-Data Collection & Preparation:
+Key Skills:
+Data Cleaning & Preprocessing
+Exploratory Data Analysis (EDA)
+Python
+SQL for Data Management
+Power BI for Visualization
 
-Import multiple datasets related to customers, products, sales, and stores.
-Data cleaning and transformation using Python (Pandas).
-Merging datasets into a single unified format for analysis.
-SQL Query Execution:
+Industry Domain
+Retail Analytics (Electronics Industry)
 
-Custom SQL queries in MySQL to extract valuable insights.
-Queries for demographics, sales trends, product performance, and geographical analysis.
-Use of aggregation functions and advanced SQL joins to generate comprehensive reports.
-Data Warehousing:
+Objectives:
+Global Electronics provided datasets related to their customers, products, sales, stores, and currency exchange rates. The analysis focuses on:
 
-Data storage in MySQL for efficient querying and access.
-Ensuring relational integrity with properly defined foreign key constraints across tables (e.g., customers, products, sales).
-Power BI Dashboards:
+Customer Insights: Segmenting customers for better marketing
+Sales Performance: Identifying trends and top-performing products
+Store Operations: Improving store performance based on sales data
+Currency Impact: Understanding exchange rate effects on sales
 
-Build visually appealing, dynamic dashboards.
-Dashboards for customer insights, sales trends, product profitability, and store performance.
-Data refresh from MySQL for real-time visualization.
-Technologies Used
-Python: Data extraction, cleaning, and SQL execution using libraries such as Pandas, MySQL-Connector, and SQLAlchemy.
-MySQL: Database for structured data storage and complex querying.
-Power BI: Data visualization and business intelligence for building interactive dashboards.
-SQLAlchemy: ORM framework for database management and interaction between Python and MySQL.
-Core SQL Queries & Insights
-Customer Demographic Distribution:
+Approach:
+Data Cleaning: Handle missing values, correct data types, and merge datasets for analysis.
+SQL Database: Insert cleaned data into MySQL and create tables.
+Dashboards: Build interactive Power BI dashboards connected to SQL.
+SQL Queries: Execute key SQL queries to derive insights.
 
-Analyzes customers by gender, age, location (city, state, country), providing insights into customer segments and their geographical distribution.
-Average Purchase Value per Customer:
+Key Insights:
+Customer Analysis: Analyze demographics, purchasing behavior, and segmentation.
+Sales Analysis: Track overall performance, sales by product/store, and the effect of exchange rates.
+Product & Store Analysis: Identify popular products, profitable categories, and store performance based on size and region.
 
-Calculates the average customer spending by analyzing transaction data.
-Top Performing Products:
+Deliverables:
+Clean Data: Integrated datasets for analysis.
+Dashboards: Interactive visualizations in Power BI.
+Recommendations: Actionable insights to improve marketing, inventory, sales, and store management.
 
-Identifies high-demand products by tracking quantity sold across various categories.
-Store Performance:
-
-Evaluates store profitability based on total sales, location, and store size.
-Profitability Analysis:
-
-Computes product profitability by evaluating unit price vs. unit cost, including currency conversion impacts.
-Sales Trends Over Time:
-
-Monitors monthly sales performance to track trends and seasonality.
-Power BI Dashboards
-Customer Dashboard: Visualizes customer demographic data, purchasing behavior, and customer segmentation.
-Sales Dashboard: Tracks key sales metrics like revenue, sales volume, and customer spending patterns.
-Product Dashboard: Analyzes product performance, including sales volume, profitability, and category distribution.
-Store Dashboard: Examines store performance based on sales, size, geographical region, and store opening date.
-Installation & Setup
-Python Environment:
+Tools Used
+Python: For data cleaning and EDA.
+MySQL: For data storage and query execution.
+Power BI/Tableau: For interactive visualizations.
 
 Ensure Python 3.x is installed.
 Install required Python libraries via requirements.txt:
@@ -80,7 +65,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/0210rekha/CAPSTONE-Project_2.git
+git clone https://github.com/your-repository.git
 Run data cleaning and SQL execution scripts:
 
 bash
