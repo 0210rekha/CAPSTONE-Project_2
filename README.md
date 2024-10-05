@@ -48,7 +48,7 @@ Import data into MySQL tables by running the data preparation scripts.
 For Data Visualization using PowerBi.
 
 Copy code
-git clone https://github.com/your-repository.git
+git clone https://github.com/0210rekha/CAPSTONE-Project_2.git
 Run data cleaning and SQL execution scripts:
 
 Demo
