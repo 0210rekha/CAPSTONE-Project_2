@@ -52,4 +52,4 @@ git clone https://github.com/0210rekha/CAPSTONE-Project_2.git
 Run data cleaning and SQL execution scripts:
 
 Demo
-Watch a demo video showcasing the Power BI dashboards: Demo Video
+Watch a demo video showcasing the Power BI dashboards: https://www.linkedin.com/posts/rekha-b-94366a329_dataanalysis-globalelectronics-powerbi-activity-7254868652330532866-cIOy?utm_source=share&utm_medium=member_desktop
